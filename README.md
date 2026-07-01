@@ -540,3 +540,11 @@ The APIs were tested using:
 This repository demonstrates the complete progression of backend development using Python frameworks, starting from Django fundamentals, moving through Flask and FastAPI development, implementing RESTful API design, securing APIs with JWT authentication, and finally building a Microservices-based architecture.
 
 The hands-on exercises collectively provide practical experience in designing, developing, securing, documenting, and deploying modern backend applications.
+
+---
+
+# Student Info
+
+- **Name:** Vishal S
+- **Course:** Digital Nurture 5.0 – Python Full Stack Engineer Track
+
