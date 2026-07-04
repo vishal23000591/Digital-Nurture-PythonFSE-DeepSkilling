@@ -1,10 +1,12 @@
-# Python Backend Frameworks – Digital Nurture 5.0
+# Python Backend Frameworks & Database Integration – Digital Nurture 5.0
 
-## Course Management API
+## Course Management & Database Integration API
 
-A comprehensive backend development repository created as part of the **Digital Nurture 5.0 – Python Full Stack Engineer Track**.
+A comprehensive backend development and database integration repository created as part of the **Digital Nurture 5.0 – Python Full Stack Engineer Track**.
 
-This repository contains solutions for all **10 Hands-On Exercises** covering backend development using **Django, Flask, and FastAPI**. Each hands-on progressively enhances the Course Management API by introducing new backend concepts such as ORM, REST APIs, asynchronous programming, JWT authentication, REST best practices, and Microservices Architecture.
+This repository contains solutions for:
+1. **Module 3: Database Integration**: SQL design, DDL/DML querying, performance tuning (indexing, execution plans), NoSQL document modeling (MongoDB), Python ORMs (SQLAlchemy), and schema migration management (Alembic).
+2. **Python Backend Frameworks**: All **10 Hands-On Exercises** covering backend development using **Django, Flask, and FastAPI**. Each hands-on progressively enhances the Course Management API by introducing ORM, REST APIs, asynchronous programming, JWT authentication, REST best practices, and Microservices Architecture.
 
 ---
 
@@ -12,9 +14,19 @@ This repository contains solutions for all **10 Hands-On Exercises** covering ba
 
 ```
 Python Backend Framework Solutions/
-├── README.md
 ├── .gitignore
-└── Python Backend Framework Solutions/
+├── Module 3 Database Integration/   # Module 3 Solutions
+│   ├── README.md                    # Dedicated Database Integration README
+│   └── Vishal S/
+│       ├── hands_on_1.sql           # Schema Design & DDL
+│       ├── hands_on_2.sql           # DML & Basic SQL
+│       ├── hands_on_3.sql           # Advanced SQL (Subqueries, Views, Triggers)
+│       ├── hands_on_4.sql           # Performance & Indexes
+│       ├── hands_on_5/              # MongoDB NoSQL
+│       ├── hands_on_6/              # SQLAlchemy ORM & N+1 Problem
+│       └── hands_on_7/              # Alembic Schema Migrations
+└── Python Backend Framework Solutions/  # Backend Framework Solutions
+    ├── README.md                    # Main Backend README
     └── Vishal S/
         ├── Python Backend Hands-on 01/
         ├── Python Backend Hands-on 02/
@@ -28,15 +40,17 @@ Python Backend Framework Solutions/
         └── Python Backend Hands-on 10/
 ```
 
-Each hands-on contains its own implementation along with the required project files and dependencies.
+Each hands-on contains its own implementation along with the required project files, database files, and dependencies.
 
 ---
 
 # Technologies Used
 
-### Programming Language
+### Programming Languages & Shells
 
 - Python 3.x
+- SQL (MySQL Dialect)
+- JavaScript (MongoDB Shell - `mongosh`)
 
 ### Frameworks
 
@@ -45,11 +59,12 @@ Each hands-on contains its own implementation along with the required project fi
 - Flask
 - FastAPI
 
-### ORM
+### ORM / Migration Tools
 
 - Django ORM
 - SQLAlchemy
 - Flask-SQLAlchemy
+- Alembic (Database Migrations)
 
 ### Authentication
 
@@ -58,14 +73,18 @@ Each hands-on contains its own implementation along with the required project fi
 - Passlib (bcrypt)
 - python-jose
 
-### Database
+### Databases
 
-- SQLite
+- MySQL (Relational)
+- MongoDB (Document-based NoSQL)
+- SQLite (Local development)
 
-### API Testing
+### API Testing & Database Clients
 
 - Swagger UI
 - Postman
+- mongosh / MongoDB Compass
+- MySQL Command Line Client / Workbench
 
 ### Libraries
 
@@ -75,6 +94,8 @@ Each hands-on contains its own implementation along with the required project fi
 - Uvicorn
 - Flask Blueprint
 - FastAPI Dependency Injection
+- PyMySQL
+- mysql-connector-python
 
 ---
 
@@ -446,6 +467,13 @@ POST    /api/v1/auth/login/
 
 # Project Features
 
+- Database Relational Design & DDL Setup
+- Advanced SQL Queries (Subqueries, CTEs, Views, Triggers)
+- Database Indexing & Performance Tuning (EXPLAIN Analysis)
+- Document NoSQL Database Integration (MongoDB CRUD & Aggregations)
+- Python ORM Mapping & Sessions (SQLAlchemy)
+- Eager Loading optimization (N+1 Query Resolution)
+- Version-Controlled Database Migrations (Alembic)
 - Django Web Development
 - Flask Development
 - FastAPI Development
@@ -472,8 +500,13 @@ POST    /api/v1/auth/login/
 
 # Skills Acquired
 
-During the completion of these hands-on exercises, the following backend development concepts were learned and implemented:
+During the completion of these hands-on exercises, the following database and backend development concepts were learned and implemented:
 
+- Relational Schema Design & Constraints
+- Database Performance Tuning & Query Execution Plans
+- NoSQL Document Modeling & Aggregations
+- SQLAlchemy ORM & Session Management
+- Alembic Migration Lifecycle Management
 - Django Project Development
 - Django ORM
 - Django REST Framework
