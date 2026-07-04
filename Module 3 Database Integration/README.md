@@ -12,10 +12,14 @@ It covers relational database design, query optimization, advanced SQL, NoSQL do
 Module 3 Database Integration/
 └── Vishal S/
     ├── README.md              # Dedicated Database Integration README
-    ├── hands_on_1.sql         # Relational Schema Design & DDL
-    ├── hands_on_2.sql         # CRUD (DML) & Basic SQL Queries
-    ├── hands_on_3.sql         # Advanced SQL (Subqueries, Views, Triggers, CTEs)
-    ├── hands_on_4.sql         # Query Performance & Indexing Optimization
+    ├── hands_on_1/
+    │   └── hands_on_1.sql     # Relational Schema Design & DDL
+    ├── hands_on_2/
+    │   └── hands_on_2.sql     # CRUD (DML) & Basic SQL Queries
+    ├── hands_on_3/
+    │   └── hands_on_3.sql     # Advanced SQL (Subqueries, Views, Triggers, CTEs)
+    ├── hands_on_4/
+    │   └── hands_on_4.sql     # Query Performance & Indexing Optimization
     ├── hands_on_5/            # MongoDB NoSQL
     │   └── mongodb_queries.js # Document Modeling, CRUD & Aggregations
     ├── hands_on_6/            # Python ORM (SQLAlchemy)
@@ -111,17 +115,29 @@ Module 3 Database Integration/
 # How to Run & Verify
 
 ### Running MySQL Scripts
-Execute the SQL files inside your MySQL client/shell:
+Navigate to the hands-on directory and execute the SQL file:
 ```bash
+# Hands-On 1
+cd "Module 3 Database Integration/Vishal S/hands_on_1"
 mysql -u root -p college_db < hands_on_1.sql
+
+# Hands-On 2
+cd "../hands_on_2"
 mysql -u root -p college_db < hands_on_2.sql
+
+# Hands-On 3
+cd "../hands_on_3"
 mysql -u root -p college_db < hands_on_3.sql
+
+# Hands-On 4
+cd "../hands_on_4"
 mysql -u root -p college_db < hands_on_4.sql
 ```
 
 ### Running MongoDB Scripts
-Run the MongoDB queries using `mongosh` or load them into MongoDB compass:
+Navigate to hands_on_5 and run:
 ```bash
+cd "Module 3 Database Integration/Vishal S/hands_on_5"
 mongosh mongodb://localhost:27017 mongodb_queries.js
 ```
 

@@ -18,10 +18,14 @@ Python Backend Framework Solutions/
 ├── Module 3 Database Integration/   # Module 3 Solutions
 │   ├── README.md                    # Dedicated Database Integration README
 │   └── Vishal S/
-│       ├── hands_on_1.sql           # Schema Design & DDL
-│       ├── hands_on_2.sql           # DML & Basic SQL
-│       ├── hands_on_3.sql           # Advanced SQL (Subqueries, Views, Triggers)
-│       ├── hands_on_4.sql           # Performance & Indexes
+│       ├── hands_on_1/
+│       │   └── hands_on_1.sql       # Schema Design & DDL
+│       ├── hands_on_2/
+│       │   └── hands_on_2.sql       # DML & Basic SQL
+│       ├── hands_on_3/
+│       │   └── hands_on_3.sql       # Advanced SQL (Subqueries, Views, Triggers)
+│       ├── hands_on_4/
+│       │   └── hands_on_4.sql       # Performance & Indexes
 │       ├── hands_on_5/              # MongoDB NoSQL
 │       ├── hands_on_6/              # SQLAlchemy ORM & N+1 Problem
 │       └── hands_on_7/              # Alembic Schema Migrations
