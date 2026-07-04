@@ -25,7 +25,8 @@ Python Backend Framework Solutions/
 │       ├── hands_on_3/
 │       │   └── hands_on_3.sql       # Advanced SQL (Subqueries, Views, Triggers)
 │       ├── hands_on_4/
-│       │   └── hands_on_4.sql       # Performance & Indexes
+│       │   ├── hands_on_4.sql       # Performance & Indexes
+│       │   └── python/              # N+1 Demo & Optimized JOIN
 │       ├── hands_on_5/              # MongoDB NoSQL
 │       ├── hands_on_6/              # SQLAlchemy ORM & N+1 Problem
 │       └── hands_on_7/              # Alembic Schema Migrations

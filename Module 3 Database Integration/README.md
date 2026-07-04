@@ -19,22 +19,22 @@ Module 3 Database Integration/
     ├── hands_on_3/
     │   └── hands_on_3.sql     # Advanced SQL (Subqueries, Views, Triggers, CTEs)
     ├── hands_on_4/
-    │   └── hands_on_4.sql     # Query Performance & Indexing Optimization
+    │   ├── hands_on_4.sql     # Query Performance & Indexing Optimization
+    │   └── python/            # Standalone Python Verification Scripts
+    │       ├── n_plus_one_demo.py # Raw MySQL N+1 demonstration
+    │       └── optimized_join.py  # Raw MySQL JOIN performance optimization
     ├── hands_on_5/            # MongoDB NoSQL
     │   └── mongodb_queries.js # Document Modeling, CRUD & Aggregations
     ├── hands_on_6/            # Python ORM (SQLAlchemy)
     │   ├── models.py          # SQLAlchemy Models & Table Creation
     │   ├── crud.py            # CRUD Operations & N+1 Problem Demo
     │   └── requirements.txt   # Dependencies
-    ├── hands_on_7/            # Schema Migrations (Alembic)
-    │   ├── alembic.ini        # Migration Configurations
-    │   ├── models.py          # Updated models with Alembic track
-    │   ├── crud.py            # Database verification scripts
-    │   ├── migrations/        # Generated Migration Revisions
-    │   └── requirements.txt   # Dependencies
-    └── python/                # Standalone Python Verification Scripts
-        ├── n_plus_one_demo.py # Raw MySQL N+1 demonstration
-        └── optimized_join.py  # Raw MySQL JOIN performance optimization
+    └── hands_on_7/            # Schema Migrations (Alembic)
+        ├── alembic.ini        # Migration Configurations
+        ├── models.py          # Updated models with Alembic track
+        ├── crud.py            # Database verification scripts
+        ├── migrations/        # Generated Migration Revisions
+        └── requirements.txt   # Dependencies
 ```
 
 ---
