@@ -48,29 +48,37 @@ This repository demonstrates practical implementations of the following concepts
 
 ## Technologies Used
 
-### Programming Language
+### Programming Languages & Shells
 
-- Python
+- Python 3.x
+- SQL (MySQL)
+- JavaScript (MongoDB Shell)
 
 ### Backend Frameworks
 
 - Django
+- Django REST Framework
 - Flask
 - FastAPI
 
-### Database
+### Databases
 
-- SQLite
+- MySQL (Relational Database)
+- MongoDB (Document NoSQL Database)
+- SQLite (Local development)
 
-### ORM
+### ORM / Migration Tools
 
 - Django ORM
 - SQLAlchemy
+- Alembic (Database Migrations)
 
-### API Testing
+### API Testing & Database Clients
 
 - Swagger UI
 - Postman
+- mongosh / MongoDB Compass
+- MySQL Command Line Client / Workbench
 
 ### Authentication
 
@@ -89,43 +97,53 @@ This repository demonstrates practical implementations of the following concepts
 
 Upon completion of this program, learners gain practical experience in:
 
-- Developing backend applications using Python.
-- Building RESTful APIs with Django, Flask, and FastAPI.
-- Designing database-driven applications.
-- Implementing secure authentication mechanisms.
-- Applying REST API design principles.
-- Developing asynchronous APIs.
-- Creating scalable Microservices-based applications.
-- Understanding API Gateway and service communication.
+- Designing normalized schemas, tables, and relationships in MySQL.
+- Writing advanced queries, subqueries, CTEs, Views, and Triggers.
+- Optimizing database queries using indexes and execution plan analysis.
+- Modeling NoSQL document schemas and executing aggregation pipelines in MongoDB.
+- Integrating Python applications with databases using SQLAlchemy ORM.
+- Managing version-controlled database schema migrations using Alembic.
+- Developing backend applications using Django, Flask, and FastAPI.
+- Implementing secure JWT-based authentication mechanisms.
+- Designing scalable Microservices-based architectures with API Gateways.
 
 ---
 
 ## Repository Structure
 
 ```text
-PythonBackendFrameworks/
-│
-├── README.md
-├── handson_01/
-├── handson_02/
-├── handson_03/
-├── handson_04/
-├── handson_05/
-├── handson_06/
-├── handson_07/
-├── handson_08/
-├── handson_09/
-└── handson_10/
+Digital-Nurture-PythonFSE-DeepSkilling/
+├── README.md                           # Root Workspace README
+├── Module 3 Database Integration/      # Module 3: Database Integration Solutions
+│   ├── README.md                       # Dedicated Database Integration README
+│   └── Vishal S/
+│       ├── hands_on_1/                 # Relational Schema Design & DDL
+│       ├── hands_on_2/                 # DML & Basic SQL
+│       ├── hands_on_3/                 # Advanced SQL (Subqueries, Views, Triggers)
+│       ├── hands_on_4/                 # Performance Tuning, Indexes & python/
+│       ├── hands_on_5/                 # MongoDB Document NoSQL
+│       ├── hands_on_6/                 # SQLAlchemy ORM
+│       └── hands_on_7/                 # Alembic Schema Migrations
+└── Python Backend Framework Solutions/ # Python Backend Frameworks Solutions
+    ├── README.md                       # Main Backend README
+    └── Vishal S/
+        ├── Python Backend Hands-on 01/ # Web Framework Foundations
+        ├── Python Backend Hands-on 02/ # Django Models & Admin
+        ├── Python Backend Hands-on 03/ # Django REST APIs
+        ├── ...                         # Hands-on 04 to 09
+        └── Python Backend Hands-on 10/ # Microservices Architecture
 ```
 
 ---
 
-## Frameworks Covered
+## Frameworks & Databases Covered
 
-| Framework | Purpose |
-|-----------|---------|
-| Django | Web application development and ORM |
-| Flask | Lightweight REST API development |
+| Technology | Purpose |
+|------------|---------|
+| MySQL | Relational database schema design, querying, and indexing |
+| MongoDB | Document-based NoSQL database modeling and aggregation |
+| Django | Full-stack web application development and built-in ORM |
+| Flask | Lightweight REST API development and SQL integration |
 | FastAPI | High-performance asynchronous API development |
 
 ---
@@ -133,11 +151,9 @@ PythonBackendFrameworks/
 ## Development Environment
 
 - Python 3.x
-- Visual Studio Code
-- Git
-- SQLite
-- Postman
-- Swagger UI
+- MySQL 8.x & MongoDB
+- Visual Studio Code & Git
+- Postman & Swagger UI
 
 ---
 
