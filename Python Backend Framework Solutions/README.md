@@ -15,6 +15,13 @@ This repository contains solutions for:
 ```
 Python Backend Framework Solutions/
 ├── .gitignore
+├── Module2_FrontendDev/             # Module 2: Frontend Development Solutions
+│   ├── README.md                    # Dedicated Frontend Development README
+│   └── Vishal S/
+│       ├── handson_01/
+│       ├── handson_02/
+│       ├── handson_03/
+│       └── handson_04/
 ├── Module 3 Database Integration/   # Module 3 Solutions
 │   ├── README.md                    # Dedicated Database Integration README
 │   └── Vishal S/

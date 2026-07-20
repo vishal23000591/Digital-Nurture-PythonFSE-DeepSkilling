@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Student Portal</h1>
+
+    <h2>Courses</h2>
+
+    <div id="course-status"></div>
+
+    <div class="course-grid"></div>
+
+    <section id="notifications">
+        <h2>Notifications</h2>
+        <div id="notification-loading" class="spinner"></div>
+        <p id="notification-error"></p>
+        <button id="retry-button" class="hidden">Retry</button>
+
+        <div class="notification-list"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>

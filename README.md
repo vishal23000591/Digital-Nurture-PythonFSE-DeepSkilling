@@ -114,6 +114,13 @@ Upon completion of this program, learners gain practical experience in:
 ```text
 Digital-Nurture-PythonFSE-DeepSkilling/
 ├── README.md                           # Root Workspace README
+├── Module2_FrontendDev/                # Module 2: Frontend Development Solutions
+│   ├── README.md                       # Dedicated Frontend Development README
+│   └── Vishal S/
+│       ├── handson_01/                 # Web Page Structure & HTML Semantics
+│       ├── handson_02/                 # Styling & Responsive Layouts (Flexbox & Grid)
+│       ├── handson_03/                 # DOM Manipulation & Event Handling
+│       └── handson_04/                 # Asynchronous JS & API Integration
 ├── Module 3 Database Integration/      # Module 3: Database Integration Solutions
 │   ├── README.md                       # Dedicated Database Integration README
 │   └── Vishal S/
