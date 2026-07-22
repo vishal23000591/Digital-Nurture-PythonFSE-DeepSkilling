@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Initial Accessibility Score: 78
+Flagged Issues:
+1. [Low Contrast]: Text elements do not have sufficient contrast ratio.
+2. [Missing Alt Attributes]: <img> elements do not have alt attributes.
+3. [Missing Form Labels]: <input> elements do not have associated <label> elements.
+4. [Heading Hierarchy]: Headings do not decrease sequentially (h1 -> h3, skipping h2).
+5. [Non-semantic Interactive Elements]: <div> used as buttons without role or tabindex.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Student Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2/dist/css-vars-ponyfill.min.js"></script>
+  <script>
+    cssVars({});
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Student Portal</h1>
+    <nav aria-label="Main navigation">
+      <a href="#" aria-current="page">Home</a>
+      <a href="#">Courses</a>
+      <a href="#">Profile</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2>Welcome to the Student Portal</h2>
+      <p>Navigate and manage your course enrollments and profile accessibility features.</p>
+      <button id="explore-btn">Explore Courses</button>
+    </section>
+
+    <section id="courses-section">
+      <h2>Your Enrolled Courses</h2>
+      
+      <div class="search-container">
+        <label for="search-courses">Search Courses:</label>
+        <input type="text" id="search-courses" placeholder="Search courses...">
+        <p id="status-count" role="status" aria-live="polite">0 courses found.</p>
+      </div>
+
+      <button id="sort-credits">Sort by Credits</button>
+
+      <div class="course-grid">
+        <!-- Rendered dynamically from JS -->
+      </div>
+
+      <p id="total-credits">Total Credits: 0</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Student Portal. Built with accessibility in mind.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
