@@ -43,6 +43,8 @@ This repository demonstrates practical implementations of the following concepts
 - Microservices Architecture
 - API Gateway
 - Inter-Service Communication
+- Test Automation & Browser Scripting
+- Page Object Model (POM) Design Pattern
 
 ---
 
@@ -73,12 +75,15 @@ This repository demonstrates practical implementations of the following concepts
 - SQLAlchemy
 - Alembic (Database Migrations)
 
-### API Testing & Database Clients
+### API Testing, Automation & Database Clients
 
 - Swagger UI
 - Postman
 - mongosh / MongoDB Compass
 - MySQL Command Line Client / Workbench
+- Selenium WebDriver
+- Pytest
+- webdriver-manager
 
 ### Authentication
 
@@ -139,6 +144,16 @@ Digital-Nurture-PythonFSE-DeepSkilling/
         ├── Python Backend Hands-on 03/ # Django REST APIs
         ├── ...                         # Hands-on 04 to 09
         └── Python Backend Hands-on 10/ # Microservices Architecture
+├── SeleniumBasics/                     # Selenium & Test Automation Solutions
+│   ├── README.md                       # Dedicated Selenium Basics README
+│   └── Vishal S/
+│       ├── handson_01/                 # QA Concepts & Defect Lifecycle
+│       ├── handson_02/                 # SDLC vs TDLC & V-Model Mapping
+│       ├── handson_03/                 # Test Automation Strategy & ROI
+│       ├── handson_04/                 # WebDriver setup & Browser Navigation
+│       ├── handson_05/                 # Locators & Element Interaction
+│       ├── handson_06/                 # Pytest Integration & Parameterization
+│       └── handson_07/                 # Page Object Model (POM) Architecture
 ```
 
 ---
@@ -152,6 +167,8 @@ Digital-Nurture-PythonFSE-DeepSkilling/
 | Django | Full-stack web application development and built-in ORM |
 | Flask | Lightweight REST API development and SQL integration |
 | FastAPI | High-performance asynchronous API development |
+| Selenium | Browser automation and end-to-end user flow testing |
+| Pytest | Automated test execution, fixtures, and parameterization |
 
 ---
 
